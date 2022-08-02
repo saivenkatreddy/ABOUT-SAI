@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <img id="picture" src="Screenshot_20210210-150044_Photo.jpg">
+  <br>
+  <center><button onclick="clicked()">click</button></center>
+  <center><button onclick="process()">click for the 6th question</button></center>
+
+ 
+
+  <h1>ABOUT ME</h1>
+  <h4>My name is sai venkat reddy guduru. I have done my master's in data science and searching </h4>
+  <h3>PROGRAMMING LANGUAGES</h3>
+  <ul>
+    <li>Python</li>
+    <li>Javascript</li>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>SQL</li>
+  </ul>
+  <h4>Skills</h4>
+  <ul>
+    <li>Decision making</li>
+    <li>Critical thinking</li>
+    <li>Choosing</li>
+    <li>Reading</li>
+    <li>Thinking</li>
+    <li>Working</li>
+    <li>Motivated</li>
+    <li>Yolking</li>
+  </ul>
+  <h5>Google LLC is an American multinational technology company that focuses on artificial intelligence, search engine
+    technology, online advertising</h5>
+  <h2>MY TOP TEN FAVORITE MOVIES</h2>
+  <ol>
+    <li>Interstellar</li>
+    <li>Interstellar</li>
+    <li>Interstellar</li>
+    <li>Interstellar</li>
+    <li>Interstellar</li>
+    <li>Interstellar</li>
+    <li>Interstellar</li>
+    <li>Interstellar</li>
+    <li>Interstellar</li>
+    <li>Interstellar</li>
+  </ol>
+  <h2>EDUCATION BACKGROUND</h2>
+  <ul>
+    <li>10th - 98% </li>
+    <li>12th - 92%</li>
+    <li>B.Tech</li>
+    <ul>
+      <li>1st year - 85%</li>
+      <li>2nd year - 76%</li>
+      <li>3rd year - 72%</li>
+      <li>4th year - 71%</li>
+    </ul>
+    <li>Masters - 52%</li>
+  </ul>
+  <h2>SOCIAL MEDIA</h2>
+  <ul>
+    <li>Github - <a href="https://github.com/saivenkatreddy">Click here</a></li>
+    <li>LinkedIN - <a href="https://www.linkedin.com/in/sai-venkat-reddy/">Click here</a></li>
+  </ul>
+  <center><a href="https://www.linkedin.com/in/sai-venkat-reddy/">My LinkedIN</a></center>
+  <script>
+    function clicked() {
+      let a = prompt('Do you use google regularly?(YES/NO)');
+      console.log(a);
+      let b = prompt('Are you a student?(YES/NO)');
+      console.log(b);
+      let c = prompt('Do you have a partner?(YES/NO)');
+      console.log(c);
+      let d = prompt('Is google chrome your priority browser?(YES/NO)');
+      console.log(d);
+    }
+    function process() {
+      let f = prompt('Do you know the number?(YES/NO)');
+      let f1 = parseInt(f);
+      document.getElementById('f').innerHTML = f1;
+
+      for (i = 0; i < 4; i++) {
+
+        let x = 100;
+        if (x === f1) {
+          alert("okay, enter!!")
+        }
+        else if (f1 > x) {
+          alert("Full high bro!!!")
+        }
+        else {
+          alert("Bro, low broooo!!!")
+        }
+      }
+      document.getElementById('f').innerHTML = f1;
+    }
+  </script>
+</body>
+
+</html>
