@@ -3,6 +3,10 @@
       background-color: #95a5a6;
     }
 
+    table, th, td {
+      border:1px solid black;
+    }
+  
     #title {
       text-align: center;
       color: red;
