@@ -3,7 +3,6 @@
 
 <head>
   <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
@@ -12,10 +11,8 @@
   <center><button onclick="clicked()">click</button></center>
   <center><button onclick="process()">click for the 6th question</button></center>
 
- 
-
   <h1>ABOUT ME</h1>
-  <h4>My name is sai venkat reddy guduru. I have done my master's in data science and searching </h4>
+  <h4>My name is sai venkat reddy guduru. I have done my master's in data science and searching for a new job in software development</h4>
   <h3>PROGRAMMING LANGUAGES</h3>
   <ul>
     <li>Python</li>
@@ -23,6 +20,9 @@
     <li>HTML</li>
     <li>CSS</li>
     <li>SQL</li>
+    <li>Data Science</li>
+    <li>Applied Statistics</li>
+    <li>Information Visualisation</li>
   </ul>
   <h4>Skills</h4>
   <ul>
@@ -33,23 +33,50 @@
     <li>Thinking</li>
     <li>Working</li>
     <li>Motivated</li>
-    <li>Yolking</li>
+    <li>Chipping</li>
   </ul>
   <h5>Google LLC is an American multinational technology company that focuses on artificial intelligence, search engine
     technology, online advertising</h5>
   <h2>MY TOP TEN FAVORITE MOVIES</h2>
   <ol>
     <li>Interstellar</li>
-    <li>Interstellar</li>
-    <li>Interstellar</li>
-    <li>Interstellar</li>
-    <li>Interstellar</li>
-    <li>Interstellar</li>
-    <li>Interstellar</li>
-    <li>Interstellar</li>
-    <li>Interstellar</li>
-    <li>Interstellar</li>
+    <li>Inception</li>
+    <li>Titanic</li>
+    <li>Dark</li>
+    <li>Among Us</li>
+    <li>Stranger Things</li>
+    <li>Alta Maar</li>
+    <li>Game of thrones/li>
+    <li>Steve Harrington</li>
+    <li>duitonmal</li>
   </ol>
+  <table style="width:100%">
+    <tr>
+      <th>SNo</th>
+      <th>Class</th>
+      <th>Percentage</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>10th standard</td>
+      <td>98%</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>12th standard</td>
+      <td>92%</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>B.Tech</td>
+      <td>72%</td>
+    </tr>
+  </table>
+
+  Enter your name and see the result : <input type="text" id="a">
+  <button onclick="myFunction()">click here</button>
+  <h1 id="b"></h1>
+  
   <h2>EDUCATION BACKGROUND</h2>
   <ul>
     <li>10th - 98% </li>
@@ -79,6 +106,8 @@
       console.log(c);
       let d = prompt('Is google chrome your priority browser?(YES/NO)');
       console.log(d);
+      let e = prompt('How long it might take for you to start the work?(5min/10min)');
+      console.log(e);
     }
     function process() {
       let f = prompt('Do you know the number?(YES/NO)');
@@ -100,6 +129,12 @@
       }
       document.getElementById('f').innerHTML = f1;
     }
+
+function myFunction() {
+  let x = document.getElementById("a").value;
+  document.getElementById("b").innerHTML = x;
+}
+
   </script>
 </body>
 
